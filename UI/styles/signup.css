@@ -1,3 +1,6 @@
+body {
+  background-color: gray;
+}
 #subscribe,
 #login {
   position: absolute;
@@ -24,9 +27,9 @@
   font-weight: bold;
   text-align: center;
   padding-bottom: 30px;
+  background-color: blanchedalmond;
 }
 
-/** For the moment only webkit supports the background-clip:text; */
 #wrapper h1 {
   background: -webkit-repeating-linear-gradient(
     -45deg,
@@ -36,8 +39,6 @@
     rgb(64, 111, 118) 40px,
     rgb(18, 83, 93) 40px
   );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 #wrapper h1:after {
